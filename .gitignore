@@ -48,3 +48,15 @@ __pycache__/
 htmlcov/
 .ipynb_checkpoints/
 *.egg-info/
+
+# ARION local runtime, generated state and macOS metadata
+.data/
+frontend/node_modules/
+frontend/dist/
+*.tsbuildinfo
+test-results/
+._*
+*.npz
+*.jsonl
+*.sqlite3
+*.sqlite3-*
